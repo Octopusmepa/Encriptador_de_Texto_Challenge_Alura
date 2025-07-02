@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="index.js"></script>
+  <title>Encriptador de Texto</title>
+</head>
+
+<body>
+
+  <header>
+   <img src="Imagenes/Logo.png" alt="Logo Alura">
+  </header>
+  
+  <main>
+    
+    <section class="seccion1">
+      <input type="text" id="textoencriptado" placeholder="Ingrese el texto aqui" class="textarea">
+           <div class="contenedor_botones">
+        <button type="button" value="Encriptar" class="boton_encriptar" id="boton_encriptar">Encriptar</button>
+        <button type="button" value="Desencriptar" class="boton_desencriptar" id="boton_desencriptar">Desencriptar</button>     
+        </div>
+
+      <div class="textalert">
+        <p><img src="Imagenes/bi_exclamation-circle-fill.jpg" alt="alerta"> Solo escribir minusculas y sin acentos.</p>
+      </div>
+    </section>
+
+
+    <section class="seccion2">
+      
+      <div class="contenedor_resultado">
+        <textarea name="resultado" id="textodesencriptado" cols="50" rows="30" class="resultado"></textarea>
+ 
+      </div>
+            
+      <div class="contenedor_btncopiar">
+        <button type="button" value="Copiar" class="boton_copiar" id="copiar">Copiar</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+ 
+    PROYECTO: ENCRIPTADOR DE TEXTO-<a href="https://www.aluracursos.com/" target="_blank" id="Alura">ALURA LATAM</a>_<a href="https://www.oracle.com/mx/education/oracle-next-education/" target="_blank" id="Oracle">ORACLE NEXT EDUCATION</a> - BY: <a href="https://www.linkedin.com/in/menak/" target="_blank">AM<a></footer>
+
+  </footer>
+</body>
+<script>
+  var btn = document.querySelector("#boton_encriptar");
+  btn.onclick = encriptar;
+
+  var btn2 = document.querySelector("#boton_desencriptar");
+  btn2.onclick = desencriptar;
+
+  var btn3 = document.querySelector("#copiar");
+  btn3.onclick = copiar;
+
+</script>
+
+</html>
