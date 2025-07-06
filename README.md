@@ -6,7 +6,7 @@ Este encriptador de texto se creó como proyecto para Oracle Next Education con 
 Se pusieron en practica los lenguajes: HTML, CSS y JS.
 Implementando los colores de Alura. 
 
-En el text area "ingrese el tecto aqui", podremos encriptar frases o palabras con la especificación de que las vocales se cambien por: 
+En el text area "ingrese el texto aqui", podremos encriptar frases o palabras con la especificación de que las vocales se cambien por: 
 
 e = enter
 o = ober
