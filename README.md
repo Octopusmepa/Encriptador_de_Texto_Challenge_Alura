@@ -1,29 +1,85 @@
-# Encriptador_de_Texto
+🔐 Encriptador de Texto
 
-Podremos ingresar texto para encriptar y desencriptar, con los valores: e="enter"/ o="ober"/i="imes"/a="ai"/u="ufat"
+Este proyecto es un encriptador y desencriptador de texto sencillo, desarrollado como parte de los desafíos de programación de Alura - Oracle Next Education (ONE).
+Permite transformar mensajes mediante un sistema básico de sustitución de letras, ideal para practicar lógica de programación y manipulación de cadenas en JavaScript.
 
-Este encriptador de texto se creó como proyecto para Oracle Next Education con AluraLatam. 
-Se pusieron en practica los lenguajes: HTML, CSS y JS.
-Implementando los colores de Alura. 
 
-En el text area "ingrese el texto aqui", podremos encriptar frases o palabras con la especificación de que las vocales se cambien por: 
+---
 
-e = enter
-o = ober
-i = imes
-a = ai
-u = ufat
+🚀 Funcionalidades
 
-Asi mismo, al desencriptar podremos encontrar las vocales cambiadas por las vocales normales.
+✨ Encriptar texto ingresado por el usuario.
 
-enter = e
-ober = o
-imes = i
-ai = a
-ufat = u
+🔓 Desencriptar texto encriptado.
 
-También, contamos con un boton de "copiar", que funciona en el segundo text area para copiar lo encriptado y pasarlo al primer textarea. 
+📋 Copiar el resultado al portapapeles.
 
-Al final podremos encontrar enlaces para las páginas de AluraLatam y OracleNextEducation.
+🎨 Interfaz sencilla y amigable.
 
-Espero te sirva el ejemplo y código para seguir creando código. 
+
+
+---
+
+🛠️ Tecnologías utilizadas
+
+HTML5
+
+CSS3
+
+JavaScript (ES6+)
+
+
+
+---
+
+📖 Reglas de encriptación
+
+Cada vocal es reemplazada por una cadena específica:
+
+Letra	Se convierte en
+
+a	ai
+e	enter
+i	imes
+o	ober
+u	ufat
+
+
+Ejemplo:
+
+Texto original: hola mundo  
+Texto encriptado: hoberlai mufatndober
+
+
+---
+
+▶️ Cómo usarlo
+
+1. Escribe un mensaje en el área de texto.
+
+
+2. Haz clic en "Encriptar" para codificarlo.
+
+
+3. Haz clic en "Desencriptar" para recuperar el texto original.
+
+
+4. Si lo deseas, usa el botón "Copiar" para pegar el resultado en otro lugar.
+
+💡 Mejoras futuras
+
+🚀 Evitar que se repitan textos ya encriptados.
+
+🗑️ Agregar opción para limpiar el área de texto.
+
+💾 Guardar los mensajes en localStorage.
+
+🌙 Modo oscuro.
+
+
+
+---
+
+👩‍💻 Autor
+
+Desarrollado por Ana Mendo como parte de la formación en Oracle Next Education.
