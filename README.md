@@ -38,11 +38,11 @@ Cada vocal es reemplazada por una cadena específica:
 
 Letra	Se convierte en
 
-a	ai
-e	enter
-i	imes
-o	ober
-u	ufat
+a	 = ai, 
+e = 	enter, 
+i = 	imes, 
+o	 = ober, 
+u	 = ufat, 
 
 
 Ejemplo:
